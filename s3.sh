@@ -7,5 +7,5 @@ export AWS_DEFAULT_OUTPUT=json
 aws configure list
 
 aws s3api list-buckets \
-    --endpoint-url http://localhost:9000
+    --endpoint-url http://aws_s3:9000
 
