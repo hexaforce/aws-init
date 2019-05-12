@@ -1,3 +1,3 @@
 #bin/sh -xe
 
-echo OK
+mysql -h 127.0.0.1 -u user -ppassword -e 'show databases;'
